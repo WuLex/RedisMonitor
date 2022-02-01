@@ -1,0 +1,14 @@
+﻿[
+  {
+    "ServerHost": "127.0.0.1:6379,allowadmin=true,password=123456",
+    "ServerDescribe": "本地"
+  },
+  {
+    "ServerHost": "192.168.1.104:6379,allowadmin=true,password=123456",
+    "ServerDescribe": "测试环境"
+  },
+  {
+    "ServerHost": "192.168.1.141:6379,allowadmin=true",
+    "ServerDescribe": "开发环境"
+  }
+]

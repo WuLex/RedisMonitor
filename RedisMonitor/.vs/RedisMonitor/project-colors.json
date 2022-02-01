@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b605bf9d-da24-4ccd-a537-c7604834a264": {
+      "ProjectGuid": "b605bf9d-da24-4ccd-a537-c7604834a264",
+      "DisplayName": "RedisMonitor",
+      "ColorIndex": 0
+    },
+    "73315c7b-7285-4aae-a2b1-4f8d7b228f40": {
+      "ProjectGuid": "73315c7b-7285-4aae-a2b1-4f8d7b228f40",
+      "DisplayName": "RedisMonitor.Core",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

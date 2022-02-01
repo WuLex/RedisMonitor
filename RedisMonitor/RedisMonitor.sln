@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMonitor", "RedisMonitor.csproj", "{B605BF9D-DA24-4CCD-A537-C7604834A264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMonitor.Core", "..\RedisMonitor.Core\RedisMonitor.Core.csproj", "{73315C7B-7285-4AAE-A2B1-4F8D7B228F40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B605BF9D-DA24-4CCD-A537-C7604834A264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B605BF9D-DA24-4CCD-A537-C7604834A264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B605BF9D-DA24-4CCD-A537-C7604834A264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B605BF9D-DA24-4CCD-A537-C7604834A264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73315C7B-7285-4AAE-A2B1-4F8D7B228F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73315C7B-7285-4AAE-A2B1-4F8D7B228F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73315C7B-7285-4AAE-A2B1-4F8D7B228F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73315C7B-7285-4AAE-A2B1-4F8D7B228F40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A19C8E72-A365-4617-B1F7-B62A08FD965E}
+	EndGlobalSection
+EndGlobal

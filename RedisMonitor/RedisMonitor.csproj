@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\site.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.intellisense.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.min.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.min.map" />
+    <None Include="wwwroot\js\jquery.validate-vsdoc.js" />
+    <None Include="wwwroot\js\jquery.validate.js" />
+    <None Include="wwwroot\js\jquery.validate.min.js" />
+    <None Include="wwwroot\js\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\js\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\js\modernizr-2.6.2.js" />
+    <None Include="wwwroot\js\respond.js" />
+    <None Include="wwwroot\js\respond.min.js" />
+    <None Include="wwwroot\js\_references.js" />
+    <None Include="wwwroot\lib\bootstrap-modal\css\bootstrap-modal-bs3patch.css" />
+    <None Include="wwwroot\lib\bootstrap-modal\css\bootstrap-modal.css" />
+    <None Include="wwwroot\lib\bootstrap-modal\img\ajax-loader.gif" />
+    <None Include="wwwroot\lib\bootstrap-modal\js\bootstrap-modal.js" />
+    <None Include="wwwroot\lib\bootstrap-modal\js\bootstrap-modalmanager.js" />
+    <None Include="wwwroot\lib\echarts\echarts.common.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedisMonitor.Core\RedisMonitor.Core.csproj" />
+  </ItemGroup>
+
+</Project>
